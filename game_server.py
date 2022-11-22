@@ -44,7 +44,7 @@ clientFrame.pack(side=tk.BOTTOM, pady=(5, 10))
 #network server (must be the same as clients)
 server = None
 HOST_ADDR = "0.0.0.0" #change depending on the wifi used
-HOST_PORT = 1337
+HOST_PORT = 8080
 client_name = " "
 clients = []
 clients_names = []
